@@ -37,6 +37,7 @@ The data information for the rideshare_data.csv is shown below ( s means second 
 | rideshare_profit    | string    | The difference between the passenger fare and the driver's total pay, representing the platform's profit.|
 | hourly_rate         | string    | The calculated hourly rate based on 'on_scene_hours', including the duration from arrival to final drop-off. |
 | dollars_per_mile    | string    | The driver's earnings per mile, calculated as total pay divided by trip length.                          |
+
 The table below shows the samples from the rideshare_data.csv:
 
 | business   |   pickup_location |   dropoff_location |   trip_length |   request_to_pickup |   total_ride_time |   on_scene_to_pickup |   on_scene_to_dropoff | time_of_day   |       date |   passenger_fare |   driver_total_pay |   rideshare_profit |   hourly_rate |   dollars_per_mile |
