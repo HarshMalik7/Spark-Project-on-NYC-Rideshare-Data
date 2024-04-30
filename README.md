@@ -209,7 +209,9 @@ Note, that the above figures/values for average_earning_per_mile do not represen
 | EWR            | afternoon   | 8          |
 | EWR            | morning     | 8          |
 | ...            | ...         | ...        |
+
 Note, that the above figures/values for trip_count do not represent the actual result.
+
 (5 points) Calculate the number of trips for each 'Pickup_Borough' in the evening time (i.e., time_of_day field). You need to provide a screenshot of this question in your report. The columns should include, Pickup_Borough, time_of_day, trip_count. For example,
 
 | Pickup_Borough | time_of_day | trip_count |
@@ -217,7 +219,9 @@ Note, that the above figures/values for trip_count do not represent the actual r
 | EWR            | evening     | 23333      |
 | Unknown        | evening     | 2222       |
 | ...            | ...         | ...        |
+
 Note, that the above figures/values for trip_count do not represent the actual result.
+
 (5 points) Calculate the number of trips that started in Brooklyn (Pickup_Borough field) and ended in Staten Island (Dropoff_Borough field). Show 10 samples in the terminal. You need to provide a screenshot of this question (the 10 samples) and the number of trips in your report. The columns should include, Pickup_Borough, Dropoff_Borough, and Pickup_Zone. do not truncate the name of Pickup_Zone. For example,
 
 | Pickup_Borough | Pickup_Borough   | Pickup_Zone |
